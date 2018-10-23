@@ -17,9 +17,10 @@ kafka-metrics-producer-topkrabbensteam
     from metricsFacade.labelsList import LabelsList
 
 #Metrics
-    topicName = "metrics_data"
-    metricsProducer = MetricsProducer(topicName, JsonKafkaConfig("config.json"))
 
+    topicName = "metrics_data"
+    
+    metricsProducer = MetricsProducer(topicName, JsonKafkaConfig("config.json"))
 
     filledFieldMetric = FilledFieldsMetric(ModuleName.Parser.name)
     advertCrawlTime = AdvertCrawlTimeSecondsMetric(ModuleName.Crawler.name)
