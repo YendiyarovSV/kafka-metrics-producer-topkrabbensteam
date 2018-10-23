@@ -1,4 +1,4 @@
-from kafkaMetricsSchema.com.topkrabbensteam.zm.metrics import MetricsList
+from .kafkaMetricsSchema.com.topkrabbensteam.zm.metrics import MetricsList
 from kafkaSchemaManager.decorator.CommandCenterFactory import CommandCenterFactory
 from kafkaSchemaManager.decorator.commandCenterEnum import CommandCenterEnum
 

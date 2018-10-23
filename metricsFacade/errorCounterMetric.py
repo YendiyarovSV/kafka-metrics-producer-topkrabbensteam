@@ -1,6 +1,6 @@
-from kafkaMetricsSchema.com.topkrabbensteam.zm.custom_metric.enums import PrometheusMetricType
+from .kafkaMetricsSchema.com.topkrabbensteam.zm.custom_metric.enums import PrometheusMetricType
 from .abstractMetricProducer  import AbstractMetricProducer
-from kafkaMetricsSchema.com.topkrabbensteam.zm.metrics.prometheus_metric import LabelMap
+from .kafkaMetricsSchema.com.topkrabbensteam.zm.metrics.prometheus_metric import LabelMap
 
 class ErrorCounterMetric(AbstractMetricProducer):      
     def formMetric(self,errorCategory, labelDict, buckets = None):

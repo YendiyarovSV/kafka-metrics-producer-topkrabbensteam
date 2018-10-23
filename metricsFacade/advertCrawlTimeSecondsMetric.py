@@ -1,4 +1,4 @@
-from kafkaMetricsSchema.com.topkrabbensteam.zm.custom_metric.enums import PrometheusMetricType
+from .kafkaMetricsSchema.com.topkrabbensteam.zm.custom_metric.enums import PrometheusMetricType
 from .abstractMetricProducer  import AbstractMetricProducer
 
 class AdvertCrawlTimeSecondsMetric(AbstractMetricProducer):      

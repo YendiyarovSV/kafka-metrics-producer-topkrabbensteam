@@ -1,11 +1,11 @@
 from abc import ABC
 from abc import abstractmethod
-from kafkaMetricsSchema.com.topkrabbensteam.zm.custom_metric.enums import PrometheusMetricType
-from kafkaMetricsSchema.com.topkrabbensteam.zm.metrics.metric_header import  MetricHeader
-from kafkaMetricsSchema.com.topkrabbensteam.zm.metrics.prometheus_metric import  PrometheusMetricData
-from kafkaMetricsSchema.com.topkrabbensteam.zm.metrics import MetricsList
-from kafkaMetricsSchema.com.topkrabbensteam.zm.metrics import Metric
-from kafkaMetricsSchema.com.topkrabbensteam.zm.metrics.prometheus_metric import LabelMap
+from .kafkaMetricsSchema.com.topkrabbensteam.zm.custom_metric.enums import PrometheusMetricType
+from .kafkaMetricsSchema.com.topkrabbensteam.zm.metrics.metric_header import  MetricHeader
+from .kafkaMetricsSchema.com.topkrabbensteam.zm.metrics.prometheus_metric import  PrometheusMetricData
+from .kafkaMetricsSchema.com.topkrabbensteam.zm.metrics import MetricsList
+from .kafkaMetricsSchema.com.topkrabbensteam.zm.metrics import Metric
+from .kafkaMetricsSchema.com.topkrabbensteam.zm.metrics.prometheus_metric import LabelMap
 
 from .metricType import MetricType
 import time
